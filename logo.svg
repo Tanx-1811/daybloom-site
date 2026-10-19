@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+<defs>
+  <radialGradient id="bg" cx="50%" cy="40%" r="78%">
+    <stop offset="0" stop-color="#FFF0B8"/>
+    <stop offset="0.22" stop-color="#FFC27A"/>
+    <stop offset="0.45" stop-color="#F2789B"/>
+    <stop offset="0.72" stop-color="#7656D6"/>
+    <stop offset="1" stop-color="#241E5C"/>
+  </radialGradient>
+  <radialGradient id="halo" cx="50%" cy="50%" r="50%">
+    <stop offset="0" stop-color="#FFFBE0" stop-opacity="0.95"/>
+    <stop offset="0.45" stop-color="#FFE7A0" stop-opacity="0.45"/>
+    <stop offset="1" stop-color="#FFD27A" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="grass" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#B6F07F"/>
+    <stop offset="1" stop-color="#42A85A"/>
+  </linearGradient>
+  <linearGradient id="earth" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#C98F5F"/>
+    <stop offset="0.6" stop-color="#8A5638"/>
+    <stop offset="1" stop-color="#5A3424"/>
+  </linearGradient>
+  <linearGradient id="leafL" x1="1" y1="1" x2="0" y2="0">
+    <stop offset="0" stop-color="#2FA85C"/>
+    <stop offset="1" stop-color="#A9F36F"/>
+  </linearGradient>
+  <linearGradient id="leafR" x1="0" y1="1" x2="1" y2="0">
+    <stop offset="0" stop-color="#2FA85C"/>
+    <stop offset="1" stop-color="#C4FA84"/>
+  </linearGradient>
+  <linearGradient id="roof" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#FF8E66"/>
+    <stop offset="1" stop-color="#E0483A"/>
+  </linearGradient>
+  <linearGradient id="water" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#BFF1FF"/>
+    <stop offset="1" stop-color="#7FD4F7" stop-opacity="0"/>
+  </linearGradient>
+  <radialGradient id="tree" cx="40%" cy="35%" r="70%">
+    <stop offset="0" stop-color="#FFC6DA"/>
+    <stop offset="1" stop-color="#F07AA6"/>
+  </radialGradient>
+</defs><g transform="translate(512 580) scale(0.95) translate(-512 -580)">
+<circle cx="512" cy="400" r="270" fill="url(#halo)"/>
+<path d="M152 610 A360 95 0 0 1 872 610" fill="none" stroke="#FFFFFF" stroke-width="7" opacity="0.45"/>
+
+<!-- earth -->
+<path d="M262 600 Q285 720 380 790 Q450 850 512 905 Q575 850 640 795 Q740 720 762 600 Z" fill="url(#earth)"/>
+
+<path d="M330 640 Q380 720 450 760 L430 690 Z" fill="#6E4230" opacity="0.5"/>
+<path d="M600 640 Q620 730 560 800 L640 720 Z" fill="#6E4230" opacity="0.5"/>
+<path d="M480 650 L512 860 L540 660 Z" fill="#A86E48" opacity="0.6"/>
+<circle cx="395" cy="680" r="12" fill="#E3B07E" opacity="0.7"/>
+<circle cx="640" cy="690" r="9" fill="#E3B07E" opacity="0.7"/>
+<rect x="676" y="612" width="26" height="200" rx="13" fill="url(#water)"/>
+
+<!-- grass top -->
+<ellipse cx="512" cy="600" rx="258" ry="72" fill="url(#grass)"/>
+
+<ellipse cx="490" cy="585" rx="200" ry="40" fill="#D2FF9A" opacity="0.45"/>
+<circle cx="300" cy="628" r="14" fill="#42A85A"/><circle cx="350" cy="652" r="16" fill="#42A85A"/>
+<circle cx="680" cy="652" r="16" fill="#42A85A"/><circle cx="730" cy="626" r="13" fill="#42A85A"/>
+<circle cx="440" cy="635" r="8" fill="#FFE066"/><circle cx="465" cy="648" r="7" fill="#FF8FB3"/>
+<circle cx="590" cy="640" r="8" fill="#FF8FB3"/><circle cx="615" cy="628" r="7" fill="#FFFFFF"/>
+<ellipse cx="700" cy="608" rx="26" ry="9" fill="#8FE0FF"/>
+
+<!-- house -->
+<rect x="318" y="512" width="104" height="88" rx="10" fill="#FFF3DE"/>
+<rect x="392" y="452" width="20" height="44" rx="4" fill="#C0503D"/>
+<path d="M300 522 L370 456 L440 522 Q370 512 300 522 Z" fill="url(#roof)" stroke="#C83C30" stroke-width="6" stroke-linejoin="round"/>
+
+<rect x="338" y="540" width="30" height="28" rx="6" fill="#FFD45E"/>
+<path d="M353 540 V568 M338 554 H368" stroke="#E79B2A" stroke-width="3"/>
+<rect x="384" y="550" width="26" height="50" rx="13" fill="#8A5638"/>
+<circle cx="403" cy="577" r="3" fill="#FFD45E"/>
+
+<!-- blossom tree -->
+<rect x="652" y="520" width="22" height="82" rx="8" fill="#8A5638"/>
+<circle cx="663" cy="478" r="56" fill="url(#tree)"/>
+<circle cx="622" cy="508" r="36" fill="url(#tree)"/>
+<circle cx="704" cy="510" r="36" fill="url(#tree)"/>
+<circle cx="645" cy="460" r="9" fill="#FFFFFF" opacity="0.7"/><circle cx="690" cy="488" r="6" fill="#FFFFFF" opacity="0.7"/>
+
+<!-- hero sprout -->
+<path d="M512 604 C505 540 522 470 512 392" fill="none" stroke="#3CA85E" stroke-width="26" stroke-linecap="round"/>
+<path d="M508 420 C470 330 380 290 300 318 C330 410 420 450 508 420 Z" fill="url(#leafL)"/>
+<path d="M516 404 C540 300 640 240 742 262 C724 372 620 430 516 404 Z" fill="url(#leafR)"/>
+
+<path d="M500 414 C450 370 390 340 322 324" fill="none" stroke="#2C8F50" stroke-width="7" stroke-linecap="round" opacity="0.6"/>
+<path d="M526 398 C580 340 650 290 720 270" fill="none" stroke="#2C8F50" stroke-width="7" stroke-linecap="round" opacity="0.6"/>
+<path d="M600 300 C640 278 680 270 706 272" fill="none" stroke="#FFFFFF" stroke-width="8" stroke-linecap="round" opacity="0.45"/>
+<path d="M340 330 C370 322 410 330 440 345" fill="none" stroke="#FFFFFF" stroke-width="7" stroke-linecap="round" opacity="0.4"/>
+
+<path d="M872 610 A360 95 0 0 1 152 610" fill="none" stroke="#FFFFFF" stroke-width="7" opacity="0.8"/>
+<circle cx="230" cy="666" r="16" fill="#FFE066"/><circle cx="230" cy="666" r="26" fill="#FFE066" opacity="0.3"/>
+<path d="M560 220 Q560 250 590 250 Q560 250 560 280 Q560 250 530 250 Q560 250 560 220Z" fill="#FFFFFF" opacity="1"/>
+<path d="M270 400 Q270 420 290 420 Q270 420 270 440 Q270 420 250 420 Q270 420 270 400Z" fill="#FFF4C2" opacity="1"/>
+<path d="M790 336 Q790 360 814 360 Q790 360 790 384 Q790 360 766 360 Q790 360 790 336Z" fill="#FFFFFF" opacity="1"/>
+<path d="M440 288 Q440 300 452 300 Q440 300 440 312 Q440 300 428 300 Q440 300 440 288Z" fill="#FFFFFF" opacity="0.9"/>
+</g></svg>
